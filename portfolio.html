@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="portfolio_sty.css" />
+</head>
+<body>
+  <header>
+    <h1>Bibek Das</h1>
+    <div class="profile-pic">
+        <img src="img/tr.jpg" alt="Your Name's Profile Picture" />
+    </div>
+      
+    <p>Programmer  | Creative Thinker | CS Student</p>
+    <nav class="navbar">
+        <div class="logo">Bibek Das</div>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+      
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I call myself a programmer because of my deep love for programming.
+       Dedicating time and thought to solving specific problems is more enjoyable to me than anything else.
+        My passion for programming stems from my lifelong love for chess. 
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>No Ball Detection</h3>
+      <p>I develop this by with my team member and our guide Assosiate professor of gour mahadyalaya department of Computer Sciece.</p>
+      <a href="#">Project View is not possible Beacuse of some ligle issue.</a>
+    </div>
+<!--     
+    <div class="project">
+      <h3>Project Two</h3>
+      <p>A responsive portfolio website to showcase creative work.</p>
+      <a href="#">View Project</a>
+    </div> -->
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5 | CSS3 | JavaScript</li>
+      <li>PHP | MYSQL </li>
+      <li>Figma</li>
+      <li>C | C++ | Python | DSA</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: dbibek2108@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/bibek-das-589407290/" target="_blank">linkedin.com</a></p>
+    <p>GitHub: <a href="https://github.com/BibekDas2024">github.com/BibekDas2024</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+  
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+  
+</body>
+</html>
